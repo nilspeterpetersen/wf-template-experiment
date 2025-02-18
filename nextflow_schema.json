@@ -111,6 +111,15 @@
                     "type": "string",
                     "default": "RHABARBER",
                     "description": "Rhabarber Rhabarber Rhabarber Rhabarber Rhabarber."
+                },
+                "contamination_filters": {
+                    "type": "array",
+                    "title": "Contamination filters",
+                    "description": "Contamination filters to apply.",
+                    "items": {
+                        "type": "string"
+                    },
+                    "help_text": "Expects a value like: [\"reagent\", \"human_dna\", \"human_rna\"]"
                 }
             }
         },
